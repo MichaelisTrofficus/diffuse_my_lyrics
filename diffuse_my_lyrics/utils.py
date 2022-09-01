@@ -1,4 +1,5 @@
 from typing import List
+import shutil
 from huggingface_hub import notebook_login
 
 
@@ -29,3 +30,6 @@ def parse_lyrics(path: str, prompt: str) -> List[str]:
             verses_clean.append(verse)
     return verses_clean
 
+
+def zip_folder(folder_path: str, zip_path: str):
+    shutil.make_archive(zip_path, 'zip', folder_path)

@@ -1,6 +1,7 @@
 import os
 import logging
-from utils import auth_hugging_face, parse_lyrics
+from tqdm import tqdm
+from diffuse_my_lyrics.utils import auth_hugging_face, parse_lyrics
 
 import torch
 from torch import autocast
