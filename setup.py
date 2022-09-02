@@ -26,12 +26,12 @@ try:
 except:  # noqa: E722
     requirements = [str(ir.requirement) for ir in complete_reqs]
 
-with open("README.md", "r") as fh:
+with open("README_package.md", "r") as fh:
     long_description = fh.read()
 
 setup(
     name="diffuse_my_lyrics",
-    version="0.0.6",
+    version="0.0.8",
     author="MTrofficus",
     author_email="miguel.otero.pedrido.1993@gmail.com",
     description="A dummy project to generate images from song lyrics using Latent Stable Diffusion",
