@@ -9,21 +9,14 @@
 
 <h4 align="center">An easy way to generate images from lyrics</h4>
 
-<p align="center">
-  <a href="#description">Description</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#arguments">Arguments</a> •
-  <a href="#cool-outputs">Cool Outputs</a> •
-  <a href="#next-steps">Next Steps</a> •
-</p>
-
 
 ## Description
 
 This is a simple application that uses the spectacular [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) model to generate images from song lyrics.
 So just install the library on a Colab notebook, choose your favorite song and sit back and wait for the visual interpretations of each verse! 
 
-In the Cool Outputs section, I have shown some interpretations of verses that I found very cool 😏😏😏
+In the Cool Outputs section (only in repository README.md), I have shown some interpretations of verses that 
+I found very cool 😏😏😏
 
 
 ## How To Use
@@ -79,59 +72,6 @@ shutil.make_archive("zipped_folder", 'zip', "my_favourite_song_folder")
 - **num_inference_steps** - The number of steps. By default `50`
 - **use_auth_token** - This parameter determines whether to use an authentication token for Hugging Face. By default
                         `True`
-
-## Cool Outputs
-
-Let me show you now a selection of results I found interesting during my experiments.
-
-### The Doors - The End
-
-`Ride the King's highway, baby`
-
-![screenshot](./images/the_end_1.png)
-
-
-`Weird scenes inside the gold mine`
-
-![screenshot](./images/the_end_2.png)
-
-
-`To the lake, the ancient lake, baby`
-
-![screenshot](./images/the_end_3.png)
-
-
-### The Doors - The crystal ship
-
-`The days are bright and filled with pain`
-
-![screenshot](./images/crystal_1.png)
-
-
-`The crystal ship is being filled`
-
-![screenshot](./images/crystal_2.png)
-
-
-### The Pixies - Monkey Gone to Heaven
-
-`An underwater guy who controlled the sea`
-
-![screenshot](./images/monkey_1.png)
-
-`Got killed by ten million pounds of sludge from New York and New Jersey`
-
-![screenshot](./images/monkey_2.png)
-
-`This monkey's gone to heaven`
-
-![screenshot](./images/monkey_3.png)
-
-`The creature in the sky`
-
-![screenshot](./images/monkey_4.png)
-
-
 
 ## Next Steps
 

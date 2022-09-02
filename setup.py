@@ -26,7 +26,7 @@ try:
 except:  # noqa: E722
     requirements = [str(ir.requirement) for ir in complete_reqs]
 
-with open("README.md", "r") as fh:
+with open("README_package.md", "r") as fh:
     long_description = fh.read()
 
 setup(
@@ -45,5 +45,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=requirements,
-    python_requires='>=3.5',
+    python_requires='>=3.7.0',
 )
