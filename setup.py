@@ -31,7 +31,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="diffuse_my_lyrics",
-    version="0.0.1",
+    version="0.0.6",
     author="MTrofficus",
     author_email="miguel.otero.pedrido.1993@gmail.com",
     description="A dummy project to generate images from song lyrics using Latent Stable Diffusion",
@@ -45,5 +45,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=requirements,
-    python_requires='>=3.5',
+    python_requires='>=3.7.0',
 )
