@@ -1,4 +1,4 @@
 diffusers==0.2.4
-transformers
+transformers==4.24.0
 scipy
 ftfy
